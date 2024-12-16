@@ -1,0 +1,103 @@
+/* .box1{
+    background-color: chartreuse;
+    width: 400px;
+    height: 50px;
+    border-radius: 0px 50px 0px 0px;
+}
+.box2{
+    background-color: chartreuse;
+    width: 1010px;
+    height: 50px;
+
+}
+.box{
+    display: flex;
+    gap: 3px;} */
+
+
+/* 
+.box{
+    width: 300px;
+    height: 300px;
+    background-color: blueviolet;
+    animation-name: box;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 6s;
+}
+h1{
+    font-size: 60px;
+    animation-name: h1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    text-align: center;
+
+}
+@keyframes box{
+    from{
+        background-color: aqua;
+        margin-left: 70% ;
+    }
+    to {
+        background-color: blue;
+        margin-left: 20%;
+    }
+}
+@keyframes h1{
+    from{
+        color: red;
+        background-color: gray;
+    }
+    to{
+        color: orange;
+        background-color: aqua;
+    }
+} */
+
+
+.box{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    transition-duration: 1s ;
+    margin: 100px;
+}
+.box:hover{
+    transform: skew(20deg);
+}
+/* button{
+    transition-duration: 3s ;
+}
+button:hover{
+    transform: scale(2);
+    margin: 50px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
